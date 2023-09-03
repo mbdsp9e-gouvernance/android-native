@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_soumissions"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_mes_soumissions" />
+        <!-- <item
+            android:id="@+id/nav_notif"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="@string/menu_notifications" /> -->
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/menu_localisation_des_lieux_de_travaux" />
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Se deconnecter " />
+    </group>
+
+</menu>

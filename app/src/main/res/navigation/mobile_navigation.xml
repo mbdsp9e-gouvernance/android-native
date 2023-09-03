@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_soumissions">
+
+    <fragment
+        android:id="@+id/nav_soumissions"
+        android:name="first.app.e_gouvernance.view.SoumissionFragment"
+        android:label="@string/menu_mes_soumissions"
+        tools:layout="@layout/fragment_soumission" />
+</navigation>
